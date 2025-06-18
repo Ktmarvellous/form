@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1.o">
+<title>Hardware Purchase Form</title>
+</head>
+<body>
+<form action="#" method="post">
+<table cellspacing="20">
+<tr>
+<td>First Name:</td>
+<td> <input type="text" name="first_name" size="20"></td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" name="last_name" size="20"></td>
+</tr>
+<tr>
+<td>Alias Name:</td>
+<td><input type="text" name="alias_name" size="20"></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea name="address" cols="20" rows="4"></textarea></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password" size="20"></td>
+</tr>
+<tr>
+<td>What product(s) are you interested in?</td>
+<td>
+<select name="products" size="4" multiple>
+<option>Motherboards</options>
+<option>Processors</option>
+<option>Cases</option>
+<option>Power Supply</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Preferred Contact:</td>
+<td>
+<input type="checkbox" name="contact" value="email">email
+<input type="checkbox" name="contact" value="postal_mail">Postal Mail
+</td>
+<tr>
+<td>How soon will you be buying hardware?</td>
+<td>
+<input type="radio" name="buy_time" value="10_days"> Within 10 business days<br>
+<input type="radio" name="buy_time" value="month"> Within the month<br>
+<input type="radio" name="buy_time" value="never"> Never!
+</td>
+</tr>
+<tr>
+<td>How would you like the hardware to be delivered to you?</td>
+<td>
+<input type="radio" name="delivery" value="counter">By Counter<br>
+<input type="radio" name="delivery" value="pickup">Pick it up myself
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="Submit Query">
+<input type="reset" value="Reset">
+<input type="exit" value="Exit Site">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
